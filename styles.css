@@ -1,0 +1,125 @@
+html{
+    background:#2d3740;
+}
+
+body{
+    background: #1c262f;
+    color: rgb(230, 225, 225);
+    margin: 0 auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+.logo{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    font-size: 1.8rem   ;
+}
+
+input[type="number"]{
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    text-align: center;
+    width: 80%;
+}
+
+button{
+    background: burlywood;
+    border: none;
+    border-radius: 50%;
+    height: 80px;
+    margin: 0.5rem 0 1rem 0;
+    width: 80px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    padding: 0;
+}
+
+li{
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+}
+
+.entriesWrapper{
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+
+.entriesWrapper h3{
+    font-weight: lighter;
+    margin: 0;
+    text-align: center;
+}
+
+.data{
+    font-size: 1.4rem;
+}
+
+.data div{
+    background: #141c22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+}
+
+.progress{
+    padding-bottom: 1rem;
+    text-align:center;
+}
+
+.progress h3{
+    font-size: 1.6rem;
+}
+
+.progressCircleWrapper{
+    display:flex;
+    justify-content: center;
+}
+
+#progressCircle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressCircleCentre{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background: #1c262f;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+      width: 60%;
+    }
+  
+    svg {
+      max-width: 50%;
+    }
+  
+    input[type='number'] {
+      width: 40%;
+    }
+}  
